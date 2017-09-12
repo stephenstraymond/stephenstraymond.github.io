@@ -1,0 +1,261 @@
+html,body {
+	padding: 0;
+	margin: 0;
+	background: black;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.header {
+	background-image: url("https://static.vecteezy.com/system/resources/previews/000/096/882/original/blue-low-poly-vector.jpg");
+	background-size: cover;
+	background-position: center top;
+	text-align: center;
+	display: block;
+	margin-top: -39px;
+	margin-bottom: -40px;
+}
+
+.butlist {
+	background-color: rgba(0,0,0,0);
+	padding-bottom: 40px;
+	margin-top: -25px;
+}
+
+.butlist li{
+	display: inline;
+	list-style-type: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+.butlist a{
+	font-family: Quicksand, sans-serif;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.butlist a:hover{
+	background-color: white;
+	color: black;
+}
+
+.header h1 {
+	display: block;
+	font-family: Oswald, sans-serif;
+	font-size: 60px;
+	font-style: Medium;
+	position: relative;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	color: white;
+	letter-spacing: .05em;
+}
+
+.navcontainer {
+	background-color: #025789;
+	font-family: Oswald, sans-serif;
+	font-size: 1px;
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navcontainer li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.navcontainer a{
+	font-family: Oswald,sans-serif;
+	font-size: 40px;
+	text-align: right;
+	color: white;
+	text-decoration: none;
+	letter-spacing: .03em
+}
+
+.navcontainer a:hover {
+	color: black;
+}
+
+.main {
+	background: linear-gradient(to bottom right,#025789, #d6e4ed);
+	background: -moz-linear-gradient(to bottom right,#025789, #d6e4ed);
+	background: -webkit-linear-gradient(to bottom right,#025789, #d6e4ed);
+	display: block;
+	margin: auto;
+	overflow-y: auto;
+	text-align: center;
+}
+
+hr {
+    margin: 0px 0;
+    border: 1px solid #fff;
+	display: flex;
+}
+
+.main li{
+	list-style-type: none;
+	text-align: center;
+}
+
+.main h3 {
+	font-family: Oswald, sans-serif;
+	font-size: 40px;
+	text-align: left;
+	Color: white;
+	letter-spacing: .03em;
+	text-align: center;
+}
+
+.main p{
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	
+}
+
+.main a{
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+}
+
+.main a:hover{
+	color: black;
+}
+
+.main h2 {
+	display: block;
+	font-family: Oswald, sans-serif;
+	font-size: 80px;
+	font-style: Medium;
+	position: relative;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
+	letter-spacing: .05em;
+	margin-bottom: 0px;
+}
+
+.footer {
+	background-color: #025789;
+	font-family: Quicksand, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+.footer h4{
+	text-align: center;
+}
+
+#subtitle {
+	font-family: Quicksand, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	font-style: italic;
+	margin: 0px;
+}
+
+.contentlist {
+	background-color: rgba(0,0,0,.3);
+	margin: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.contentlist h3{
+	font-family: Oswald, sans-serif;
+	font-size: 40px;
+	text-align: left;
+	Color: white;
+	letter-spacing: .03em;
+	margin-left: 100px;
+	margin-right: 150px;
+}
+
+
+
+#aboutidleft {
+	margin: 100px;
+	margin-bottom: 50px;
+	margin-right: 0px;
+	text-align: left;
+}
+
+#aboutidleft ul{
+	display: inline;
+	text-align: left;
+}
+
+#aboutidleft img{
+	width: 300px;
+	height: auto;
+	display: inline-block;
+}
+
+#aboutidleft li{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#aboutidleft p{
+	display: inline-block;
+	margin-left: 75px;
+	white-space: normal;
+	width: 700px;
+}
+
+#aboutidright {
+	margin: 100px;
+	margin-bottom: 50px;
+	margin-right: 0px;
+	text-align: left;
+}
+
+#aboutidright ul{
+	display: inline;
+	text-align: left;
+}
+
+#aboutidright img{
+	width: 300px;
+	height: auto;
+	display: inline;
+}
+
+#aboutidright li{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#aboutidright p{
+	display: inline-block;
+	margin-right: 75px;
+	white-space: normal;
+	width: 700px;
+}

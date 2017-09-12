@@ -1,0 +1,372 @@
+html,body {
+	padding: 0;
+	margin: 0;
+	background: black;
+	max-width: 100%;
+	overflow-x: hidden;
+	height: 100%
+}
+
+.header {
+	background-image: url("https://static.vecteezy.com/system/resources/previews/000/096/882/original/blue-low-poly-vector.jpg");
+	background-size: cover;
+	background-position: center top;
+	text-align: center;
+	display: block;
+	margin-top: -39px;
+	margin-bottom: -40px;
+}
+
+.butlist {
+	background-color: rgba(0,0,0,0);
+	padding-bottom: 40px;
+	margin-top: -25px;
+}
+
+.butlist li{
+	display: inline;
+	list-style-type: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+.butlist a{
+	font-family: Quicksand, sans-serif;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.butlist a:hover{
+	background-color: white;
+	color: black;
+}
+
+.header h1 {
+	display: block;
+	font-family: Oswald, sans-serif;
+	font-size: 60px;
+	font-style: Medium;
+	position: relative;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	color: white;
+	letter-spacing: .05em;
+}
+
+.navcontainer {
+	background-color: #025789;
+	font-family: Oswald, sans-serif;
+	font-size: 1px;
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navcontainer li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.navcontainer a{
+	font-family: Oswald,sans-serif;
+	font-size: 40px;
+	text-align: right;
+	color: white;
+	text-decoration: none;
+	letter-spacing: .03em
+}
+
+.navcontainer a:hover {
+	color: black;
+}
+
+.main {
+	background: linear-gradient(to bottom right,#025789, #d6e4ed);
+	background: -moz-linear-gradient(to bottom right,#025789, #d6e4ed);
+	background: -webkit-linear-gradient(to bottom right,#025789, #d6e4ed);
+	display: block;
+	margin: auto;
+	overflow-y: auto;
+	text-align: center;
+}
+
+hr.style1 {
+    margin: 0px 0;
+    border: 1px solid #fff;
+	display: flex;
+}
+
+.main li{
+	list-style-type: none;
+	text-align: center;
+	
+}
+
+.main h3 {
+	font-family: Oswald, sans-serif;
+	font-size: 40px;
+	text-align: left;
+	Color: white;
+	letter-spacing: .03em;
+	text-align: left;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.togglebut{
+	display: inline-block;
+	margin: 0px;
+	padding:0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.togglebut p{
+	display: inline-block;
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	padding: 5px 15px;
+	margin: 0px;
+	
+	
+}
+
+.togglebut p:hover{
+	cursor: pointer;
+}
+
+.active p{
+	color: white;
+	background-color: black;
+}
+
+.main a{
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+}
+
+.main a:hover{
+	color: black;
+}
+
+.main h2 {
+	display: block;
+	font-family: Oswald, sans-serif;
+	font-size: 80px;
+	font-style: Medium;
+	position: relative;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
+	letter-spacing: .05em;
+	margin-bottom: 0px;
+}
+
+.main iframe{
+	margin-bottom: -15px;
+}
+
+.footer {
+	background-color: #025789;
+	font-family: Quicksand, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+.footer h4{
+	text-align: center;
+}
+
+.downloadbut a{
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	padding: 5px 15px;
+	margin-bottom: 5px;
+}
+
+.downloadbut a:hover{
+	background-color: black;
+	color: white;
+}
+
+#subtitle {
+	font-family: Quicksand, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	font-style: italic;
+	margin: 0px;
+}
+
+.textresume{
+	background-color: rgba(0,0,0,.3);
+	margin: 100px;
+	margin-top: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.textresume h3 {
+	font-family: Oswald, sans-serif;
+	font-size: 40px;
+	text-align: left;
+	Color: white;
+	letter-spacing: .03em;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.textresume ul{
+	font-family: Quicksand, sans-serif;
+	font-size: 25px;
+	text-align: left;
+	color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#educationlist li{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#educationlist a{
+	font-family: Quicksand, sans-serif;
+	font-size: 25px;
+	text-align: left;
+	color: white;
+}
+
+#educationlist a:hover{
+	color: black;
+}
+
+#educationsubtitle{
+	text-align: left;
+	font-style: italic;
+	font-size: 20px;
+	margin: 0px;
+	margin-left: 50px;
+	padding: 0px;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+#skilllist li{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#skilllist a{
+	font-family: Quicksand, sans-serif;
+	font-size: 25px;
+	text-align: left;
+	color: white;
+}
+
+#skilllist a:hover{
+	color: black;
+}
+
+#skillsubtitle{
+	text-align: left;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	margin: 0px;
+	margin-left: 50px;
+	padding: 0px;
+	line-height: 1em;
+}
+
+#skillsubtitle a{
+	text-align: left;
+	font-style: italic;
+	font-size: 20px;
+	margin: 0px;
+	margin-left: 50px;
+	padding: 0px;
+	line-height: 0em;
+}
+
+#resumelist{
+	text-align: left;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+	margin: 0px;
+	margin-left: 50px;
+	padding: 0px;
+	line-height: 1em;
+}
+
+#resumelist li{
+	list-style-type: square;
+}
+
+#sectiontitle{
+	
+	display: inline;
+}
+
+#projectsubtitle{
+	text-align: left;
+	font-weight: normal;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1em;
+}
+
+hr.style2{
+	border: 1px dashed white;
+}
+
+#subtitle2 {
+	font-family: Quicksand, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	color: white;
+	font-style: italic;
+	margin: 0px;
+	margin-left: 150px;
+	
+}
+
+#subtitle2 a:hover{
+	color: black;
+}

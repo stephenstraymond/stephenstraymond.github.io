@@ -1,0 +1,165 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: black;
+}
+
+.header {
+	background-image: url("https://static.vecteezy.com/system/resources/previews/000/096/882/original/blue-low-poly-vector.jpg");
+	background-size: cover;
+	background-position: center top;
+	text-align: center;
+}
+
+.butlist {
+	background-color: rgba(0,0,0,0);
+	padding-bottom: 40px;
+	visibility: hidden;
+}
+
+.butlist li{
+	display: inline;
+	list-style-type: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+.butlist a{
+	font-family: Quicksand, sans-serif;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+/*.butlist a:hover{
+	background-color: white;
+	color: black;
+}*/
+
+.header img{
+	border-radius: 100%;
+	display: block;
+	margin: auto;
+	width: 20%;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	visibility: hidden;
+}
+
+.header h1 {
+	font-family: Oswald, sans-serif;
+	font-size: 60px;
+	font-style: Medium;
+	position: relative;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	color: white;
+	letter-spacing: .05em;
+	visibility: hidden;
+}
+
+.navcontainer {
+	background-color: #025789;
+	font-family: Oswald, sans-serif;
+	font-size: 1px;
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navcontainer li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.navcontainer a{
+	font-family: Oswald,sans-serif;
+	font-size: 40px;
+	text-align: right;
+	color: white;
+	text-decoration: none;
+	letter-spacing: .03em
+}
+
+.navcontainer a:hover {
+	color: black;
+}
+
+.main {
+	background: linear-gradient(to bottom right,#025789, lightgrey);
+	-moz-background: linear-gradient(to bottom right,#025789, #d6e4ed);
+	-webkit-background: linear-gradient(to bottom right,#025789, #d6e4ed);
+	display: flex;
+}
+
+hr {
+    margin: 0px 0;
+    border: 1px solid #fff;
+}
+
+.main li{
+	list-style-type: none;
+	padding: 30px;
+	padding-top: 5px;
+	margin: 50px;
+	visibility: hidden;
+	background-color: rgba(0,0,0,.3);
+}
+
+.main h3 {
+	font-family: Oswald, sans-serif;
+	font-size: 40px;
+	text-align: left;
+	Color: white;
+	letter-spacing: .03em;
+}
+
+.main p{
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	
+}
+
+.main a{
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	padding: 5px 15px;
+}
+
+.footer {
+	background-color: #025789;
+	font-family: Quicksand, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	color: white;
+	display: block;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+.footer h4{
+	text-align: center;
+}
+
+.footer p{
+	text-align: center;
+}
