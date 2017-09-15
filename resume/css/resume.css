@@ -214,9 +214,15 @@ hr.style1 {
 	margin-bottom: 5px;
 }
 
-.downloadbut a:hover{
-	background-color: black;
-	color: white;
+.printbut a{
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	padding: 5px 15px;
+	margin-bottom: 5px;
 }
 
 #subtitle {

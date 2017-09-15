@@ -32,6 +32,13 @@ function main(){
 	$('.downloadbut a').mouseleave(function(){
 		$(this).fadeTo('fast',1); 
 	});
+	
+	$('.printbut a').mouseenter(function(){
+		$(this).fadeTo('fast',.6); 
+    });
+	$('.printbut a').mouseleave(function(){
+		$(this).fadeTo('fast',1); 
+	});
 }
 
 $(document).ready(main);
