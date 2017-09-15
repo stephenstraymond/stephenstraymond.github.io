@@ -24,31 +24,28 @@ if(isset($_POST['submit'])){
 		<link href="css/contact.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link rel="shortcut icon" href="img\favicon.ico"/>
 	</head>
 	<body>
 		<div class="navcontainer">
 			<ul>
 				<li><a href = "..\index.html" target="_self">Home</a></li>
 				<li><a href = "..\about\index.html" target="_self">About Me</a></li>
+				<li><a href = "..\experience\index.html" target="_self">Experience</a></li>
 				<li><a href = "..\projects\index.html" target="_self">Projects</a></li>
-				<li><a href = "..\goals\index.html" target="_self">Goals</a></li>
+				<li><a href = "..\resume\index.html" target="_self">Resume</a></li>
 				<li><a href = "..\contact\index.html" target="_self">Contact</a></li>
 			</ul>
 		</div>
 		<hr />
-		<div class="header">
-			<h1>Stephen St. Raymond</h1>
-			<div class="butlist">
-				<ul>
-					<li><a href="..\resume\index.html">Resume</a></li>
-					<li><a href="..\contact\index.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-		<hr />
 		<div class="main">
 			<ul>
-				<li><h2>Contact</h2></li>
+				<div class="topper"><li><h2>Contact</h2></li>
+				<li><br /></li>
+				<li><p id="subtitle">Use form below to send an email, or use the contact information on the right!</p></li>
+				<li><br /></li></div>
+				<hr />
+				<li><br /></li>
 				<div class="contentlist">
 				<ul>
 					<li><ul id ="funlist">
@@ -56,7 +53,7 @@ if(isset($_POST['submit'])){
 					<br />
 					<hr />
 					<br />
-					<li><form action="test.php" method="post">
+					<li><form action="#" method="post">
 						<p>Name: </p><input type="text" name="first_name" size="40"><br>
 						<br />
 						<p>Email: </p><input type="text" name="email" size="40"><br>
@@ -80,6 +77,8 @@ if(isset($_POST['submit'])){
 						<br />
 						<li><p>T: (475) - 282 - 5916</p><a href="mailto:stephenstraymond@gmail.com" target="_blank">E: stephenstraymond@gmail.com</a></li>
 						<br />
+						<hr />
+						<br />
 						<li style="padding-right: 15px;"><a href="https://www.facebook.com/sstraymond" target="_blank"><img src="img/fb.png" height="42" width="42"></a></li>
 						<li style="padding-right: 15px;"><a href="https://plus.google.com/+StephenStRaymond" target="_blank"><img src="img/gplus.png" height="42" width="42"></a></li>
 						<li><a href="https://www.linkedin.com/in/sgs49/" target="_blank"><img src="img/lin.png" height="42" width="42"></a></li>
@@ -92,6 +91,8 @@ if(isset($_POST['submit'])){
 		<div class="footer">
 			<h4>Website designed and built by Stephen St. Raymond</h4>
 		</div>
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script src='js/contact.js'></script>
 	</body>
 
 </html>
